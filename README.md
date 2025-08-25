@@ -1,11 +1,24 @@
-## 1 Activar entorno python
+# Documentación de usuario Yubus
+
+## 1. Verificar tener instalado python
 
 ```bash
-source .venv/bin/activate
-pip install mkdocs
+python3 --version
 ```
 
-## 2 Ejecutar mkdocs
+## 2. Activar entorno python
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+```
+
+## 3. Instalar mkdocs y Material Theme
+
+```bash
+pip install mkdocs mkdocs-material
+```
+
+## 4. Ejecutar mkdocs
 
 ```bash
 mkdocs serve
