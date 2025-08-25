@@ -12,8 +12,8 @@ Pasos:
 
 ## 2. Boton nuevo viaje
 
-![boton nuevo viaje](../img/create_trip_2.png)
+![boton nuevo viaje](../img/create_trip_button.png)
 
 ## 3. Completar formulario
 
-![modal programación viaje](../img/create_trip_3.png)
+![modal programación viaje](../img/create_trip_form.png)

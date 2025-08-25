@@ -32,15 +32,15 @@ Pasos:
 
 ## Registrar comisión por partida
 
-Si el conductor debe realizar un pago por **"comisión por partida"**, entonces click en
+> Si el conductor debe realizar un pago por **"comisión por partida"**, entonces click en
 **"SI, REALIZAR PAGO"**, de lo contrario **"NO, CONTINUAR"**
 
 ![confirmar pago comisión partida](../img/register_departure_confirm_pay.png)
 
 ### Formulario comisión por partida
 
-- Se puede agregar mas conceptos
-- Una vez verificado la información, click en **"REGISTRAR PAGO"**
+> - Se puede agregar mas conceptos
+> - Una vez verificado la información, click en **"REGISTRAR PAGO"**
 
 ![formulario pago por partida](../img/register_departure_form_pay_per_departure.png)
 
