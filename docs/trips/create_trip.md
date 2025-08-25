@@ -8,7 +8,7 @@ Pasos:
 
 ## 1. Viajes y pasajes
 
-![viajes y pasajes](../img/create_trip_1.png)
+![viajes y pasajes](../img/trips_and_tickets.png)
 
 ## 2. Boton nuevo viaje
 
