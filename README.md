@@ -29,5 +29,6 @@ Ingresar a: http://127.0.0.1:8000/
 # Referencias
 
 - [Instalación mkdocs](https://www.mkdocs.org/user-guide/installation/) 
+- [Documentación Material Theme](https://squidfunk.github.io/mkdocs-material/creating-your-site/)
 
 
