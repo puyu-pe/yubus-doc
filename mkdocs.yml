@@ -1,0 +1,49 @@
+site_name: YUBUZ
+site_description: Sistema para empresas de transporte de pasajeros de pequeña escala (interprovincial, interdistrital).
+site_author: PUYU PE
+repo_url: https://github.com/puyu-pe/yubus
+repo_name: yubus
+nav:
+  - Home: index.md
+  - Procesos:
+      - Viajes:
+          - Crear nuevo viaje: trips/create_trip.md
+          - Viajes programados: trips/scheduled_trips.md
+          - Registrar salida: trips/register_departure.md
+          - Registrar llegada: trips/register_arrival.md
+          - Manifiesto de pasajeros: trips/passenger_manifest.md
+      - Encomiendas:
+          - Registrar encomienda: packages/register_package.md
+      - Pasajes:
+          - Vender pasajes: tickets/sell_ticket.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.shortcuts
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+
+extra:
+  shortcuts:
+    help: 191      # ?
+    next: 78       # n
+    previous: 80   # p
+    search: 83     # s
