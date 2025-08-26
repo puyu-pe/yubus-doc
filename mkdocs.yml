@@ -16,6 +16,7 @@ nav:
           - Manifiesto de pasajeros: trips/passenger_manifest.md
       - Encomiendas:
           - Registrar encomienda: packages/register_package.md
+          - Salida y entrega de encomiendas: packages/departure_delivery_packages.md
       - Pasajes:
           - Vender pasajes: tickets/sell_ticket.md
 
