@@ -21,6 +21,7 @@ Pasos:
 
 > 1. Comprobante: Puede ser boleta, factura o ticket
 > 2. El destino puede ser una parada intermedia o el paradero final
+> 3. Se puede asignar la encomineda a un viaje en concreto, de lo contrario se puede realizar desde [asignación de encomiendas](assignment_packages.md).
 > 3. En facturas el ruc y razon social es obligatorio, para otros documentos es opcional
 
 ![completar datos iniciales](../img/register_package_header_form.png)
