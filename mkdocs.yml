@@ -18,6 +18,12 @@ nav:
           - Registrar encomienda: packages/register_package.md
       - Pasajes:
           - Vender pasajes: tickets/sell_ticket.md
+      - Reportes:
+          - Operaciones: reports/operation.md
+          - Consolidado: reports/consolidated.md
+          - Comisión por partida: reports/commision.md
+          - Notas de crédito: reports/credit_note.md
+          - Estado de comprobantes: reports/status_receipt.md
 
 theme:
   name: material
