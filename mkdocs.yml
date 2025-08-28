@@ -7,6 +7,17 @@ edit_uri: edit/develop/docs/
 
 nav:
   - Home: index.md
+  - Parámetros:
+      - Series: parameters/series.md
+      - Documentos de identidad: parameters/identity_documents.md
+      - Clientes naturales: parameters/natural_clients.md
+      - Clientes jurídicos: parameters/legal_clients.md
+      - Conductores: parameters/drivers.md
+      - Buses: parameters/buses.md
+      - Tipos de encomienda: parameters/type_commend.md
+      - Rutas y tarifas: parameters/routes_fares.md
+      - Medios de pago: parameters/payment_methods.md
+      - Conceptos por partida: parameters/departure_concept.md
   - Procesos:
       - Viajes:
           - Crear nuevo viaje: trips/create_trip.md
@@ -18,12 +29,12 @@ nav:
           - Registrar encomienda: packages/register_package.md
       - Pasajes:
           - Vender pasajes: tickets/sell_ticket.md
-      - Reportes:
-          - Operaciones: reports/operation.md
-          - Consolidado: reports/consolidated.md
-          - Comisión por partida: reports/commision.md
-          - Notas de crédito: reports/credit_note.md
-          - Estado de comprobantes: reports/status_receipt.md
+  - Reportes:
+      - Operaciones: reports/operation.md
+      - Consolidado: reports/consolidated.md
+      - Comisión por partida: reports/commision.md
+      - Notas de crédito: reports/credit_note.md
+      - Estado de comprobantes: reports/status_receipt.md
 
 theme:
   name: material
