@@ -7,6 +7,9 @@ edit_uri: edit/develop/docs/
 
 nav:
   - Home: index.md
+  - Seguridad:
+      - Agencias, dispositivos e impresoras: security/agencies_devices_printers.md
+      - Usuarios y roles: security/users_roles.md
   - Parámetros:
       - Series: parameters/series.md
       - Documentos de identidad: parameters/identity_documents.md
