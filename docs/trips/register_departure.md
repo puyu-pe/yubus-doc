@@ -8,11 +8,10 @@ Pasos:
 1. [Ir a viajes y pasajes](#viajes-y-pasajes)
 2. [Buscar por ruta y fecha](#buscar-por-ruta-y-fecha)
 3. [Click en boton de opciones](#click-en-boton-de-opciones)
-4. [Completar formulario](#completar-formulario)
 
 ## Viajes y pasajes
 
-![viajes y pasajes](../img/create_trip_1.png)
+![viajes y pasajes](../img/trips_and_tickets.png)
 
 ## Buscar por ruta y fecha
 
@@ -28,8 +27,26 @@ Pasos:
 > 2. Idientificado el viaje, click en el menu opciones (boton plomo asociado al viaje).
 > 3. Buscar la opción "Registrar salida", hacer click.
 
-![click boton de opciones](../img/register_departure_2.png)
+![click boton de opciones](../img/register_departure_pending_trip.png)
 ![click registrar salida](../img/register_departure_trip_options.png)
 
-## Completar formulario
+## Registrar comisión por partida
+
+> Si el conductor debe realizar un pago por **"comisión por partida"**, entonces click en
+**"SI, REALIZAR PAGO"**, de lo contrario **"NO, CONTINUAR"**
+
+![confirmar pago comisión partida](../img/register_departure_confirm_pay.png)
+
+### Formulario comisión por partida
+
+> - Se puede agregar mas conceptos
+> - Una vez verificado la información, click en **"REGISTRAR PAGO"**
+
+![formulario pago por partida](../img/register_departure_form_pay_per_departure.png)
+
+## Registrar salida bus
+
+![confirmar salida bus](../img/register_departure_confirm_departure.png)
+
+
 

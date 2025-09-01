@@ -1,10 +1,26 @@
-site_name: YUBUZ
+site_name: YUBUS
 site_description: Sistema para empresas de transporte de pasajeros de pequeña escala (interprovincial, interdistrital).
 site_author: PUYU PE
-repo_url: https://github.com/puyu-pe/yubus
-repo_name: yubus
+repo_url: https://github.com/puyu-pe/yubus-doc
+repo_name: yubus-doc
+edit_uri: edit/develop/docs/
+
 nav:
   - Home: index.md
+  - Seguridad:
+      - Agencias, dispositivos e impresoras: security/agencies_devices_printers.md
+      - Usuarios y roles: security/users_roles.md
+  - Parámetros:
+      - Series: parameters/series.md
+      - Documentos de identidad: parameters/identity_documents.md
+      - Clientes naturales: parameters/natural_clients.md
+      - Clientes jurídicos: parameters/legal_clients.md
+      - Conductores: parameters/drivers.md
+      - Buses: parameters/buses.md
+      - Tipos de encomienda: parameters/type_commend.md
+      - Rutas y tarifas: parameters/routes_fares.md
+      - Medios de pago: parameters/payment_methods.md
+      - Conceptos por partida: parameters/departure_concept.md
   - Procesos:
       - Viajes:
           - Crear nuevo viaje: trips/create_trip.md
@@ -13,9 +29,17 @@ nav:
           - Registrar llegada: trips/register_arrival.md
           - Manifiesto de pasajeros: trips/passenger_manifest.md
       - Encomiendas:
+          - Asignación de encomiendas: packages/assignment_packages.md
           - Registrar encomienda: packages/register_package.md
+          - Salida y entrega de encomiendas: packages/departure_delivery_packages.md
       - Pasajes:
           - Vender pasajes: tickets/sell_ticket.md
+  - Reportes:
+      - Operaciones: reports/operation.md
+      - Consolidado: reports/consolidated.md
+      - Comisión por partida: reports/commision.md
+      - Notas de crédito: reports/credit_note.md
+      - Estado de comprobantes: reports/status_receipt.md
 
 theme:
   name: material
