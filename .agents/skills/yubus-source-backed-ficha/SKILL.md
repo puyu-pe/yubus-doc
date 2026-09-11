@@ -10,7 +10,7 @@ metadata:
 ## Activation Contract
 
 Use for a new or revised YUBUS user guide whose behavior must be supported by
-the application source.
+the application source, or for a manual incremental documentation sync.
 
 ## Hard Rules
 
@@ -40,6 +40,26 @@ the application source.
    `documentation/evidence/`.
 3. Update only the necessary guide, navigation, and inventory records.
 4. Run the inventory checker and strict MkDocs build.
+
+## Manual Sync
+
+1. Read `documentation/yubus-sync.yml`. Resolve `YUBUS_SOURCE_DIR` from the
+   environment, then the untracked `.env`, and read `VERSION` from the fixed
+   target commit on `main`, not from the worktree.
+2. Compare `completed.source_commit` to the target, including added, modified,
+   deleted, and renamed paths. The baseline is only as broad as its recorded
+   scope; never present it as a historical comprehensive audit.
+3. Classify each affected path as documented, no documentation impact, or
+   pending. Do not inherit exclusions from YURES; any YUBUS exclusion requires
+   explicit user approval.
+4. Trace user-facing changes and write source-backed evidence. Use CodeGraph
+   only when its indexed bytes match the target; otherwise inspect immutable
+   target bytes with `git show <target>:<path>`.
+5. Keep `target` and `pending` current. Advance `completed` only after every
+   affected path is resolved and the required documentation validation passes.
+6. Do not fetch, checkout, mutate, or claim remote or deployed synchronization
+   for the source repository. This is a manual process; do not add automation,
+   parsers, CI, or schemas for it.
 
 ## Output Contract
 

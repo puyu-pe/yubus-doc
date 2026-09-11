@@ -17,3 +17,10 @@ Pasos:
 ## 3. Completar formulario
 
 ![modal programación viaje](../img/create_trip_form.png)
+
+### Viaje de carga
+
+Para programar un viaje de carga, seleccione un bus activo con el modo de
+servicio `Carga`. El bus puede tener `0` asientos de pasajeros; use este viaje
+para gestionar encomiendas. La disponibilidad de asientos mostrará cero, por lo
+que no debe usarse como referencia para vender pasajes.

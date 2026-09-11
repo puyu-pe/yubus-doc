@@ -90,6 +90,10 @@ pages:
     path: tickets/sell_ticket.md
     status: source_traced
     reviewed: false
+  - id: general-sales
+    path: operations/general_sales.md
+    status: source_traced
+    reviewed: false
   - id: operation-report
     path: reports/operation.md
     status: registered

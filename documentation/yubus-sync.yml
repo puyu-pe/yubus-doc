@@ -1,0 +1,25 @@
+version: 1
+source:
+  branch: main
+  directory_env: YUBUS_SOURCE_DIR
+completed:
+  source_version: 2.15.2
+  source_commit: 7870ebd9245846ae873c3b20ae3802b35c390815
+  established: true
+  reviewed_at: '2026-09-11'
+  scope: User-declared scoped baseline. Only the cargo-zero-seats and general-sale-detraction flows were source-audited in this checkpoint; the remaining documentation was declared current by the user and was not historically audited.
+  evidence:
+  - documentation/evidence/cargo-zero-seats.md
+  - documentation/evidence/general-sale-detraction.md
+  validation:
+  - inventory check
+  - strict MkDocs build
+target:
+  source_version: 2.15.2
+  source_commit: 7870ebd9245846ae873c3b20ae3802b35c390815
+  reviewed_at: '2026-09-11'
+pending: []
+exclusions: []
+context_limitations:
+- No comprehensive historical documentation audit was performed.
+- Remote freshness and deployed-state synchronization were not verified.

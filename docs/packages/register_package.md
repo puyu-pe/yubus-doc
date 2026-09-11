@@ -1,32 +1,34 @@
-# REGISTRO ENCOMIENDAS
+# Registro de encomiendas
 
 Pasos:
 
 1. [Ir a registro encomiendas](#ir-a-registro-encomiendas)
-2. [Click boton Encomienda](#click-boton-encomienda)
+2. [Seleccionar Encomienda](#seleccionar-encomienda)
 3. [Completar datos iniciales](#completar-datos-iniciales)
-4. [Completar datos remitente](#completar-datos-remitente)
-5. [Completar datos destinatario](#completar-datos-destinatario)
+4. [Completar datos del remitente](#completar-datos-del-remitente)
+5. [Completar datos del destinatario](#completar-datos-del-destinatario)
 6. [Completar datos finales](#completar-datos-finales)
 
-# Ir a registro encomiendas
+## Ir a registro encomiendas
 
 ![ir a registro encomiendas](../img/register_packages.png)
 
-# Click boton Encomienda
+## Seleccionar Encomienda
 
 ![click boton encomienda](../img/register_package_button.png)
 
-# Completar datos iniciales
+## Completar datos iniciales
 
 > 1. Comprobante: Puede ser boleta, factura o ticket
 > 2. El destino puede ser una parada intermedia o el paradero final
-> 3. Se puede asignar la encomineda a un viaje en concreto, de lo contrario se puede realizar desde [asignación de encomiendas](assignment_packages.md).
-> 3. En facturas el ruc y razon social es obligatorio, para otros documentos es opcional
+> 3. El selector **Viaje** agrupa los viajes programados por modo de servicio: `Mixto`, `Pasajero` y `Carga`.
+> 4. Para una encomienda de carga, seleccione un viaje del grupo `Carga` que corresponda a la ruta elegida.
+> 5. Si aún no asignará la encomienda a un viaje, seleccione **NO ASIGNAR**. Después podrá vincularla desde [Asignación de encomiendas](assignment_packages.md).
+> 6. En facturas, el RUC y la razón social son obligatorios; para otros documentos son opcionales.
 
 ![completar datos iniciales](../img/register_package_header_form.png)
 
-# Completar datos remitente
+## Completar datos del remitente
 
 > 1. Ingresar DNI
 > 2. Apellidos y nombres se autocompletan según el DNI
@@ -34,14 +36,14 @@ Pasos:
 
 ![completar datos remitente](../img/register_package_sender_data.png)
 
-# Completar datos destinatario
+## Completar datos del destinatario
 
 > 1. Ingresar DNI
 > 2. Apellidos y nombres se autocompletan según el DNI
 
 ![completar datos destinatario](../img/register_package_recipient_data.png)
 
-# Completar datos finales
+## Completar datos finales
 
 > 1. Seleccionar tipo de encomienda: caja, bolsa, paquete, etc.
 > 2. Modificar cantidad si es necesario.

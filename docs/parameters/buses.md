@@ -1,10 +1,10 @@
 # Buses
 
-Lista de los buses del sistena.
+Lista de buses registrados en el sistema.
 
 ![lista_documento_identidad](../img/parameters/buses/list.png)
 
-## Registrar nuevo conductor
+## Registrar nuevo bus
 
 > ### Presione la opción "Agregar bus"
 
@@ -15,8 +15,10 @@ Lista de los buses del sistena.
 
 Datos a considerar:
 
-- Para tener una mejor perspectiva de los buses, se permite generar un maquetado de la distribución de los asientos de cada bus en estilo cuadricula, el color verde son los asientos y el celeste son los espacios del bus. 
-- Modo servicio : es el tipo de uso que tiene el bus (mixto, pasajero, carga) indicando a los 2 servicios que hacen en modulo proecsos (viajes y enconmiendas)
+- **Conductor:** seleccione el conductor asignado al bus, si corresponde.
+- **Modo Servicio:** seleccione `Mixto`, `Pasajero` o `Carga`. Este dato clasifica los viajes y los agrupa al registrar una encomienda.
+- **Capacidad:** los campos `Asientos`, `Asientos seg.` y `Adicional` aceptan el valor `0`. Para un bus de carga sin asientos de pasajeros, registre `0` en los dos campos de asientos y consigne la capacidad adicional que corresponda.
+- **Distribución:** registre y conserve una distribución del bus. La vista de asientos de las unidades de carga no está disponible, pero el sistema utiliza la distribución guardada al abrir el detalle del viaje.
 
 ![distribucion](../img/parameters/buses/distribution.png)
 
@@ -30,7 +32,7 @@ Datos a considerar:
 
 > ### Actualizar
 
-El sistema brinda  la posibilidad de modificar datos
+El sistema brinda la posibilidad de modificar datos
 de un bus ya registrado.
 
 > ### Eliminar

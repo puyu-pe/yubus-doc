@@ -35,6 +35,8 @@ nav:
           - Salida y entrega de encomiendas: packages/departure_delivery_packages.md
       - Pasajes:
           - Vender pasajes: tickets/sell_ticket.md
+      - Operaciones:
+          - Venta general: operations/general_sales.md
   - Reportes:
       - Operaciones: reports/operation.md
       - Consolidado: reports/consolidated.md
