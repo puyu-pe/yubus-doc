@@ -1,6 +1,7 @@
 site_name: YUBUS
 site_description: Sistema para empresas de transporte de pasajeros de pequeña escala (interprovincial, interdistrital).
 site_author: PUYU PE
+site_url: http://127.0.0.1:8000/
 repo_url: https://github.com/puyu-pe/yubus-doc
 repo_name: yubus-doc
 edit_uri: edit/develop/docs/

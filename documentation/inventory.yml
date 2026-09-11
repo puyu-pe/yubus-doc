@@ -1,0 +1,112 @@
+version: 1
+review_status: inventory_only
+review_note: Registration confirms navigation and local-reference coverage, not semantic verification of every guide.
+pages:
+  - id: home
+    path: index.md
+    status: registered
+    reviewed: false
+  - id: agencies-devices-printers
+    path: security/agencies_devices_printers.md
+    status: registered
+    reviewed: false
+  - id: users-roles
+    path: security/users_roles.md
+    status: registered
+    reviewed: false
+  - id: series
+    path: parameters/series.md
+    status: registered
+    reviewed: false
+  - id: identity-documents
+    path: parameters/identity_documents.md
+    status: registered
+    reviewed: false
+  - id: natural-clients
+    path: parameters/natural_clients.md
+    status: registered
+    reviewed: false
+  - id: legal-clients
+    path: parameters/legal_clients.md
+    status: registered
+    reviewed: false
+  - id: drivers
+    path: parameters/drivers.md
+    status: registered
+    reviewed: false
+  - id: buses
+    path: parameters/buses.md
+    status: registered
+    reviewed: false
+  - id: type-commend
+    path: parameters/type_commend.md
+    status: registered
+    reviewed: false
+  - id: routes-fares
+    path: parameters/routes_fares.md
+    status: registered
+    reviewed: false
+  - id: payment-methods
+    path: parameters/payment_methods.md
+    status: registered
+    reviewed: false
+  - id: departure-concept
+    path: parameters/departure_concept.md
+    status: registered
+    reviewed: false
+  - id: create-trip
+    path: trips/create_trip.md
+    status: registered
+    reviewed: false
+  - id: scheduled-trips
+    path: trips/scheduled_trips.md
+    status: registered
+    reviewed: false
+  - id: register-departure
+    path: trips/register_departure.md
+    status: registered
+    reviewed: false
+  - id: register-arrival
+    path: trips/register_arrival.md
+    status: registered
+    reviewed: false
+  - id: passenger-manifest
+    path: trips/passenger_manifest.md
+    status: registered
+    reviewed: false
+  - id: assignment-packages
+    path: packages/assignment_packages.md
+    status: registered
+    reviewed: false
+  - id: register-package
+    path: packages/register_package.md
+    status: registered
+    reviewed: false
+  - id: departure-delivery-packages
+    path: packages/departure_delivery_packages.md
+    status: registered
+    reviewed: false
+  - id: sell-ticket
+    path: tickets/sell_ticket.md
+    status: source_traced
+    reviewed: false
+  - id: operation-report
+    path: reports/operation.md
+    status: registered
+    reviewed: false
+  - id: consolidated-report
+    path: reports/consolidated.md
+    status: registered
+    reviewed: false
+  - id: commision-report
+    path: reports/commision.md
+    status: registered
+    reviewed: false
+  - id: credit-note-report
+    path: reports/credit_note.md
+    status: registered
+    reviewed: false
+  - id: status-receipt-report
+    path: reports/status_receipt.md
+    status: registered
+    reviewed: false

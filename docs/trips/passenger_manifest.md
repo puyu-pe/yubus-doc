@@ -6,8 +6,8 @@ viajando, para ello el sistema puede generar un documento llamado "Manifiesto de
 Pasos:
 
 1. [Ir a viajes y pasajes](#ir-a-viajes-y-pasajes)
-2. [Opción 1](#opción-1) 
-3. [Opción 2](#opción-2) 
+2. [Opción 1](#opcion-1)
+3. [Opción 2](#opcion-2)
 
 ## Ir a viajes y pasajes
 
@@ -32,5 +32,4 @@ Ir a ventana de venta de pasajes
 ## Resultado
 
 ![lista de pasajeros](../img/passenger_manifest_list.png)
-
 

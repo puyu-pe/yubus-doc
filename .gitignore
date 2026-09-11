@@ -1,3 +1,10 @@
 .venv
 site
+site-production
+site-preview
 .idea
+.env
+.playwright-mcp/
+.atl/
+__pycache__/
+*.py[cod]

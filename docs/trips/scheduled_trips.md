@@ -2,11 +2,11 @@
 
 Pasos:
 
-1. [Ir a Programación salida.](#programación-salida)
+1. [Ir a Programación salida.](#programacion-salida)
 2. [Seleccionar fecha.](#seleccionar-fecha)
 3. [Seleccionar inicio.](#seleccionar-hora-de-inicio)
-4. [Doble click ](#opción-1-doble-click) o [Arrastrar y soltar buses.](#opción-2-arrastrar-y-soltar)
-5. [Guardar y verificar orden de salida](#guardar-y-verificar-orden-de-salida-)
+4. [Doble click ](#opcion-1-doble-click) o [Arrastrar y soltar buses.](#opcion-2-arrastrar-y-soltar)
+5. [Guardar y verificar orden de salida](#guardar-y-verificar-orden-de-salida)
 
 ## Programación salida
 
