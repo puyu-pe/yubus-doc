@@ -1,0 +1,28 @@
+guide_path: docs/operations/general_sales.md
+capture_date: '2026-09-12'
+application_version: 2.15.3
+source_commit: unknown
+assets:
+  - path: docs/img/operations/general-sale-detraction-disabled.png
+    state: detraction_disabled
+    description: General-sale modal before activating detraction.
+  - path: docs/img/operations/general-sale-detraction-enabled.png
+    state: detraction_enabled
+    description: General-sale modal after activating detraction.
+redaction_status: No customer, document, account, tenant, or authentication identifiers are shown.
+browser_observed: true
+human_validation: pending
+demonstration_data:
+  detail: Service transport demonstration
+  quantity: '1'
+  gross_amount: '1000.00'
+  payment_before_detraction: '1000.00'
+  detraction_type: Goods transport by road
+  detraction_percentage: '4.00'
+  detraction_amount: '40.00'
+  net_amount: '960.00'
+  payment_after_detraction: '960.00'
+submission: not_performed
+limitations:
+  - The displayed type and percentage are an observed example, not a universal tax rule.
+  - This capture does not verify tax applicability or a completed sale.

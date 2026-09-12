@@ -1,10 +1,10 @@
 ---
 name: yubus-source-backed-ficha
-description: "Trigger: YUBUS ficha, source-backed ficha, document YUBUS behavior. Investigate YUBUS source and author evidence-backed fichas."
+description: "Trigger: YUBUS ficha, source-backed ficha, visual flow capture. Investigate source-backed guides and safe capture evidence."
 license: Apache-2.0
 metadata:
   author: "Puyu PE"
-  version: "1.0"
+  version: "1.1"
 ---
 
 ## Activation Contract
@@ -22,7 +22,8 @@ the application source, or for a manual incremental documentation sync.
   controller, service/model, and tests when they exist.
 - Classify statements as proven, conditional, operational advice, or uncertainty.
   Keep evidence internal and write user-facing guides in Spanish.
-- Preserve screenshot bytes and paths. New captures require metadata and redaction.
+- Preserve existing screenshot bytes and paths. For a visual flow, follow the
+  capture workflow and `documentation/capture-protocol.md`.
 
 ## Decision Gates
 
@@ -40,6 +41,18 @@ the application source, or for a manual incremental documentation sync.
    `documentation/evidence/`.
 3. Update only the necessary guide, navigation, and inventory records.
 4. Run the inventory checker and strict MkDocs build.
+
+## Capture Workflow
+
+1. Reuse a valid image when it supports the step; capture before and after a
+   meaningful state change when that distinction helps, not by default.
+2. With Playwright MCP, navigate to the relevant modal or section and capture
+   its full context: title, relevant controls, and visible result. Place the
+   image beside the step it supports.
+3. Keep browser-observed capture evidence distinct from human validation. Use
+   demonstrative data, redact sensitive content, and write capture metadata.
+4. For coral frames and arrows, load `assets/annotate-capture.js` in browser
+   evaluation and follow the protocol example. Remove its overlay afterward.
 
 ## Manual Sync
 
@@ -71,3 +84,4 @@ status, limitations, changed files, and validation results.
 - `../../../AGENTS.md`
 - `../../../documentation/inventory.yml`
 - `../../../documentation/capture-protocol.md`
+- `assets/annotate-capture.js`

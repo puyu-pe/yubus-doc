@@ -1,0 +1,20 @@
+guide_path: docs/operations/general_sales.md
+asset_path: detraction-capture-trial.png
+asset_location: Playwright MCP output artifact; not installed in docs/img
+capture_date: '2026-09-12'
+application_version: 2.15.3
+source_commit: null
+status: trial_not_published
+redaction_status: Cropped to detraction controls; no customer, account, tenant, or authentication identifiers included.
+human_validation: pending
+demonstration_data:
+  gross_amount: '1000.00'
+  detraction_percentage: '4.00'
+  detraction_amount: '40.00'
+  net_amount: '960.00'
+annotations: Temporary coral SVG arrow and outlines; removed after capture.
+browser_observation: Opened the general-sale form and enabled detraction; observed the displayed calculation without submitting a sale.
+limitations:
+  - This is a visual trial, not a completed sale or tax-applicability verification.
+  - The browser reports a newer version than the documentation source checkpoint; that checkpoint was not advanced.
+  - The image remains a browser output artifact pending human approval and repository placement.
