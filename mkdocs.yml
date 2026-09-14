@@ -7,7 +7,7 @@ repo_name: yubus-doc
 edit_uri: edit/develop/docs/
 
 nav:
-  - Home: index.md
+  - Inicio: index.md
   - Seguridad:
       - Agencias, dispositivos e impresoras: security/agencies_devices_printers.md
       - Usuarios y roles: security/users_roles.md
@@ -46,15 +46,17 @@ nav:
 
 theme:
   name: material
+  language: es
+  custom_dir: overrides
   palette:
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Cambiar a modo oscuro
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Cambiar a modo claro
   features:
     - navigation.top
     - navigation.instant

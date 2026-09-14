@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <h1>Página no encontrada</h1>
+  <p>La dirección que busca no existe o fue cambiada.</p>
+  <p>
+    Puede volver a la <a href="{{ config.site_url }}">página principal</a>
+    o buscar la guía que necesita.
+  </p>
+
+  <h2>Tareas frecuentes</h2>
+  <ul>
+    <li><a href="{{ 'tickets/sell_ticket/' | url }}">Vender pasajes</a></li>
+    <li><a href="{{ 'trips/create_trip/' | url }}">Programar un viaje</a></li>
+    <li><a href="{{ 'packages/register_package/' | url }}">Registrar una encomienda</a></li>
+    <li><a href="{{ 'operations/general_sales/' | url }}">Registrar una venta general</a></li>
+  </ul>
+{% endblock %}
